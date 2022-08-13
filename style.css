@@ -1,0 +1,284 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	box-sizing: border-box;
+}
+.home{
+    background-image: linear-gradient(#a8d8ea, #aa96da);
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.opening{
+	color: rgb(11, 11, 11);
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+span{
+	color: #aa96da;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+	color: rgb(12, 10, 10);
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #aa96da;
+	transition: .4s;
+}
+
+.info{
+	position: absolute;
+	top: 50%;
+	left:8%;
+}
+.info h1:hover{
+color: #521262;
+}
+.home-container{
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+.profile_img{     
+    display: flex;
+    position: relative; 
+    width: 200px; height: 200px; 
+    scale:1.5;
+    right: 200%;
+    top: 100px;
+   
+} 
+.profile_img img{
+    height: 400px;
+    width: 350px;
+}
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: #040404;
+    border: 2px solid #040708;
+    padding: 12px 34px;
+    font-size: 22px;
+    font: weight 500px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin: 10px 10px 180px 10px;
+    border-radius: 25px;
+}
+
+.button:hover {
+    border: 1px solid #ffffd2;
+    background: #ffffd2;
+    transition: 1s;
+    color: #000;
+}
+
+.button a {
+    color: #aa96da;
+    font-weight: 800;
+}
+
+.button i {
+    color: #000;
+    font-weight: 800;
+}
+.homepage_button{
+    position: absolute;
+	top: 80%;
+	left:7%;
+}
+
+/* About */
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-image: linear-gradient(#6fe7dd, #ffffff);
+}
+.about img{
+	height: auto;
+	width: 430px;
+}
+.about-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: rgb(8, 8, 8);
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h2:hover{
+    color: #521262;
+}
+.about-text h5{
+	color: rgb(8, 8, 8);
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: rgb(8, 8, 8);
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+.aboutdetails{
+        font-size: 1.2rem;
+        line-height: 2.6rem;
+        font-weight: 300;
+    
+}
+/* education */
+.education {
+    background-image:linear-gradient(#a1de93,#cabbe9);
+    
+    
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.eduheading {
+    padding-top: 40px;
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #090603;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+ 
+ .box{
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #a6acec;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #f9004d;
+
+}
+.card img{
+    padding-top: 0px ;
+    padding-bottom: 20%;
+    height: 150px;
+    width: 200px;
+}
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+ }
+
+
+/* form */
+ .heading{
+    padding-top: 40px;
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #090603;
+    text-align: center;
+    margin-bottom: 2rem;
+ }
+
+    .contactme {
+        background-image: linear-gradient(#a56cc1, #cefff1);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .contactform {
+        max-width: 500px;
+        margin: auto;
+        width: 100%;
+        display: grid;
+        row-gap: 1rem;
+    }
+    
+    .cocontactform .format, .contactform textarea {
+        border: none;
+        outline: none;
+        font-size: 0.9rem;
+        font-weight: 800;
+        padding: 15px;
+        color: #000;
+        background: #FFF;
+        border-radius: 0.4rem;
+    }
+    
+    select option {
+        padding: 15px;
+        font-weight: 600;
+    }
+    
+    select {
+        margin-bottom: 10px;
+    }
+    
+    form .button {
+        margin:5px 15px 50px;
+        padding: 5px 20px;
+        border-radius: 22px;
+        color: white;
+        background-color: #EDB4D0;
+        font-weight: bold;
+        font-size: 12px;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    form .button:hover{
+        background-color: white;
+        color: #EDB4D0;
+    }
